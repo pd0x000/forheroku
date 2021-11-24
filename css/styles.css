@@ -19,7 +19,7 @@ body {
 	/*flex: 1 1 auto;*/
 	box-shadow: 2px 0 4px 2px rgba(0,0,0,.15);
 	z-index: 4;
-	background:#12502e;
+	background:rgb(147, 180, 94);
 	background-size: 40px;
 	margin: 0;
 	padding: 0;
@@ -156,25 +156,46 @@ margin-left: 50px;
 	font-size: calc(100% - 10%);
 	line-height: 30px;
 }
-.svg{
-    width: 236px;
-    height: 135px;
+.svg {
+    width: 266px;
+    height: 142px;
+}
+.svg1 {
+    width: 152px;
+    height: 83px;
 }
 .contact__img {
-	padding-top: 40px;
+    padding-top: 0px;
+    padding-left: 11px;
+}
+.contact__img {
+	padding-top: 6px;
 }
 .telephone {
 	width: 300px;
 	height: 152px;
 }
 .image-log {
-width: 236px;
-height: 155px;
+    width: 199px;
+    height: 130px;
+}
+.image-log1 {
+    width: 117px;
+    height: 81px;
 }
 .contacts {
 	text-align: center;
 	width: 100%;
 	background: #12502e;;
+}
+.contacts1 {
+    text-align: center;
+    width: 100%;
+    background: rgb(147, 180, 94);
+    height: -25px;
+    padding-left: 0px;
+    bottom: 0;
+    position: absolute;
 }
 .contact__text {
 	padding-top: 80px;
@@ -185,6 +206,23 @@ height: 155px;
 	color: #ffffff;
 	text-align: center;
 }
+.cart {
+	margin-left: 5px;
+	width: 90%;
+	border: 1px solid #12502e;
+	padding: 5px;
+}
+
+.contact__text1 {
+    padding-top: 1px;
+    font-size: 17px;
+    line-height: 8px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
 .foot {
 height: 130px;
 background: #303440;
@@ -232,8 +270,10 @@ body._lock{
 .telephone__logo {
 	width: 187px;
 }
+
 .image-log__logo {
-	width: 87px;
+    width: 150px;
+    margin-right: 24px;
 }
 .menu_icon {
 	display: none;
@@ -282,9 +322,9 @@ body._lock{
 		transform: scale(1); translate(0px,-45%);
 		}
 
-	.telephone__logos{
-		width: 40px;
-	}
+.telephone__logos {
+    width: 57px;
+}
 	.logo__img{
 		display: none;
 	}
@@ -365,4 +405,7 @@ padding-left: 36%;
 	color: #fff;
 	font-size: calc(100% - 10%);
 	line-height: 30px;
-	}}
+	}
+
+
+}
