@@ -207,19 +207,24 @@ ul.breadcrumbs li a {
     float:left;
     text-align: center;
     margin:4px 2px;
-    height: 272px;
+    height: 298px;
 }
 div .product:hover{
     border:1px solid #55A71B;
 }
 
 .product-title{ padding:0;
- height: 95px;
+ height: 126px;
  overflow: hidden;
   }
 .product-title a{ text-decoration:none; }
 .product-image{ height: 130px; padding:1px 0; }
-.product-image img{ border:none;}
+.product-image img{ 
+border: none;
+width: 100%;
+object-fit: contain;
+width: 100px;
+height: 100%;}
 .product-image img:hover{ opacity:0.8;}
 .product-buttons { 
     height:30px;
@@ -236,7 +241,7 @@ div .product:hover{
     float: left;
     text-align: center;
     margin: 4px 2px;
-    height: 272px;
+    height: 298px;
 }
 }
 
