@@ -411,7 +411,7 @@ line-height: 20px;
 }
 .categoric._active{
     position: fixed;
-    top: 50%;
+    top: 51%;
     left: calc(45% - 100px);;
     z-index: 4;
     transition: left 0.3s ease 0s;
