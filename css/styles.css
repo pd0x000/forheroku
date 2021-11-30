@@ -411,7 +411,7 @@ line-height: 20px;
 }
 .categoric._active{
     position: fixed;
-    top: 50%;
+    top: 55%;
     left: 20%;
     z-index: 4;
     transition: left 0.3s ease 0s;
@@ -493,6 +493,19 @@ padding-left: 36%;
 	}
 
 
+}
+@media (max-width:  458px) {
+.list {
+    visibility: hidden;
+    position: fixed;
+    border: solid 2px white;
+    display: inline-block;
+   top: 64%;
+    line-height: 19px;
+    border-radius: 15px;
+    left: 1%;
+    right: 1%;
+}
 }
 .categoric{
     position: fixed;
